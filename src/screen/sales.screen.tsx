@@ -32,7 +32,6 @@ const FocusFlowLanding = () => {
     seconds: 47,
   });
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [scrollY, setScrollY] = useState(0);
 
   // Countdown timer
@@ -55,7 +54,11 @@ const FocusFlowLanding = () => {
 
   // Scroll effect
   useEffect(() => {
-    const handleScroll = () => setScrollY(window.scrollY);
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+
+      return scrollY;
+    };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
