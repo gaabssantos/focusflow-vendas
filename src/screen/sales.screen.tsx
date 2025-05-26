@@ -204,10 +204,7 @@ const FocusFlowLanding = () => {
             </div>
           </div>
 
-                    <div className="mb-8" id="price">
-            <p className="text-2xl mb-4 text-gray-300">
-              Seu investimento hoje:
-            </p>
+          <div className="mb-8" id="price">
             <div className="text-7xl font-black text-green-400 mb-4">
               R$ 19,90<span className="text-2xl">/mês</span>
             </div>
