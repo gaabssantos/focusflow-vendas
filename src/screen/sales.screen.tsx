@@ -204,6 +204,21 @@ const FocusFlowLanding = () => {
             </div>
           </div>
 
+                    <div className="mb-8" id="price">
+            <p className="text-2xl mb-4 text-gray-300">
+              Seu investimento hoje:
+            </p>
+            <div className="text-7xl font-black text-green-400 mb-4">
+              R$ 19,90<span className="text-2xl">/mês</span>
+            </div>
+            <p className="text-2xl text-yellow-400 font-bold mb-2">
+              30 dias de garantia
+            </p>
+            <p className="text-red-400 font-bold text-xl">
+              Desconto de 95% - Por tempo limitado!
+            </p>
+          </div>
+
           <button
             className="group bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 text-white px-12 py-6 rounded-2xl font-black text-2xl hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-purple-500/50 flex items-center justify-center space-x-3 mx-auto mb-8 relative overflow-hidden"
             onClick={scrollToSection}
@@ -219,7 +234,7 @@ const FocusFlowLanding = () => {
           <div className="flex items-center justify-center space-x-8 text-sm text-gray-400">
             <span className="flex items-center space-x-2">
               <Shield className="w-4 h-4 text-green-400" />
-              <span>Garantia 7 dias</span>
+              <span>Garantia 30 dias</span>
             </span>
             <span className="flex items-center space-x-2">
               <Users className="w-4 h-4 text-blue-400" />
@@ -526,7 +541,7 @@ const FocusFlowLanding = () => {
               R$ 19,90<span className="text-2xl">/mês</span>
             </div>
             <p className="text-2xl text-yellow-400 font-bold mb-2">
-              7 dias de garantia
+              30 dias de garantia
             </p>
             <p className="text-red-400 font-bold text-xl">
               Desconto de 95% - Por tempo limitado!
@@ -541,7 +556,7 @@ const FocusFlowLanding = () => {
               </span>
             </div>
             <p className="text-lg text-gray-300 leading-relaxed">
-              7 dias para testar tudo. Se não multiplicar sua produtividade por
+              30 dias para testar tudo. Se não multiplicar sua produtividade por
               pelo menos 5x, devolvemos{" "}
               <span className="text-green-400 font-bold">
                 100% do seu dinheiro
@@ -570,7 +585,7 @@ const FocusFlowLanding = () => {
             </div>
             <div className="flex items-center justify-center space-x-2">
               <Shield className="w-4 h-4 text-blue-400" />
-              <span>Garantia 7 dias</span>
+              <span>Garantia 30 dias</span>
             </div>
             <div className="flex items-center justify-center space-x-2">
               <Crown className="w-4 h-4 text-purple-400" />
@@ -781,7 +796,7 @@ const FocusFlowLanding = () => {
             <div>
               <h4 className="font-bold text-white mb-3">Garantias</h4>
               <div className="space-y-2 text-gray-400">
-                <p>✅ 7 dias de garantia</p>
+                <p>✅ 30 dias de garantia</p>
                 <p>🔒 Pagamento 100% seguro</p>
                 <p>🎯 Suporte premium incluso</p>
               </div>
