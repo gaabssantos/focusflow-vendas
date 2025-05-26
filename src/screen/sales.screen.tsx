@@ -216,17 +216,19 @@ const FocusFlowLanding = () => {
             </p>
           </div>
 
-          <button
-            className="group bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 text-white px-12 py-6 rounded-2xl font-black text-2xl hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-purple-500/50 flex items-center justify-center space-x-3 mx-auto mb-8 relative overflow-hidden"
-            onClick={scrollToSection}
-          >
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12 animate-pulse"></div>
-            <Rocket className="w-8 h-8 relative z-10" />
-            <span className="relative z-10">
-              QUERO MULTIPLICAR MINHA PRODUTIVIDADE
-            </span>
-            <ArrowRight className="w-8 h-8 group-hover:translate-x-2 transition-transform relative z-10" />
-          </button>
+          <a href="https://pay.kiwify.com.br/sb9Om6R">
+            <button
+              className="group bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 text-white px-12 py-6 rounded-2xl font-black text-2xl hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-purple-500/50 flex items-center justify-center space-x-3 mx-auto mb-8 relative overflow-hidden"
+              onClick={scrollToSection}
+            >
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12 animate-pulse"></div>
+              <Rocket className="w-8 h-8 relative z-10" />
+              <span className="relative z-10">
+                QUERO MULTIPLICAR MINHA PRODUTIVIDADE
+              </span>
+              <ArrowRight className="w-8 h-8 group-hover:translate-x-2 transition-transform relative z-10" />
+            </button>
+          </a>
 
           <div className="flex items-center justify-center space-x-8 text-sm text-gray-400">
             <span className="flex items-center space-x-2">
